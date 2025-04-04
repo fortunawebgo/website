@@ -57,7 +57,7 @@ export default function Home() {
 
   const handleWhatsAppRedirect = () => {
     const encodedMessage = encodeURIComponent(`${message}`)
-    const whatsappUrl = `https://wa.me/62887720710196?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/6287720710196?text=${encodedMessage}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -108,7 +108,7 @@ export default function Home() {
               <Instagram className="h-4 w-4" />
               Instagram
             </Link>
-            <Link href="https://wa.me/62887720710196" target="_blank">
+            <Link href="https://wa.me/6287720710196" target="_blank">
               <Button className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2">
                 <Phone className="h-4 w-4" />
                 Contact
@@ -344,7 +344,7 @@ export default function Home() {
                   </div>
                 </Button>
               </Link>
-              <Link href="https://wa.me/62887720710196" target="_blank">
+              <Link href="https://wa.me/6287720710196" target="_blank">
                 <Button className="bg-green-500 hover:bg-green-600 flex items-center gap-2">
                   <Phone className="h-4 w-4" />
                   WhatsApp
